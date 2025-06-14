@@ -1,0 +1,18 @@
+{
+  "package": {
+    "productName": "Torwell84",
+    "version": "0.1.0"
+  },
+  "build": {
+    "beforeBuildCommand": "npm run build",
+    "devPath": "http://localhost:5173",
+    "distDir": "build"
+  },
+  "tauri": {
+    "windows": [
+      {
+        "title": "Torwell84"
+      }
+    ]
+  }
+}
