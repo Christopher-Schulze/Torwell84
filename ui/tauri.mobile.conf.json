@@ -1,0 +1,21 @@
+{
+  "package": {
+    "productName": "Torwell84",
+    "version": "0.1.0"
+  },
+  "build": {
+    "beforeBuildCommand": "npm run build",
+    "distDir": "build"
+  },
+  "tauri": {
+    "mobile": {
+      "android": {
+        "packageId": "com.example.torwell84",
+        "targets": ["aarch64"]
+      },
+      "ios": {
+        "bundleIdentifier": "com.example.torwell84"
+      }
+    }
+  }
+}
